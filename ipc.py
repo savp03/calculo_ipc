@@ -1,3 +1,4 @@
+#Cambio de base ??????
 def calcular_ipc(df,base):
     df=df/base
     print(df)
@@ -10,6 +11,7 @@ def run():
 
     print("""Este programa calcula el IPC en relacion a diferentes periodos de tiempo.
     Tenemos datos desde Enero de 2003 hasta Enero del 2022""")
+    
     year=int(input("Escribe el año que quieres usar de base: "))    
     mes=input("Escribe el mes del "+str(year)+" que quiere usar: ")
     mes=mes.lower()
